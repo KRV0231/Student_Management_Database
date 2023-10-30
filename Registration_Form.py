@@ -12,7 +12,7 @@ class Reg_Form():
         self.root.geometry("700x600")
         self.root.resizable( False, False)
         self.root.title("REGISTRATION FORM")
-        self.root.configure(background="#8B8378")
+        self.root.configure(background="#458B74")
         
         self.l= Label(self.root, text="REGISTRATION FORM", font=("Arial 20 bold underline"), foreground="black", background="#698B69")
         self.l.pack(pady=10)
